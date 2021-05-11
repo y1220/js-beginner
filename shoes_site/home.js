@@ -1,10 +1,10 @@
 
-let price = 12,
-    taxRate = 0.07;
+// let price = 12,
+//     taxRate = 0.07;
 // price = 99.99;
 // price = 29.99; // override it
 // price = 12;
-//price = price % 5;
+// price = price % 5;
 // price %= 5;
 
 //showMessage('help');
@@ -21,7 +21,11 @@ var price = 35;
 */ 
 
 // showMessage(price * taxRate);
-showMessage(++price);
-console.log(typeof price);
+// showMessage(++price);
+// console.log(typeof price);
 
+let message = 'Hello';
+message = message.toLowerCase();
+showMessage(message);
+console.log(message.length);
 
