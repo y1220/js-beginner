@@ -24,8 +24,14 @@ var price = 35;
 // showMessage(++price);
 // console.log(typeof price);
 
+/*
 let message = 'Hello';
 message = message.toLowerCase();
 showMessage(message);
 console.log(message.length);
+*/
+
+let amount = Number.parseFloat("123.12");
+showMessage(typeof amount);
+
 
