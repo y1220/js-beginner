@@ -1,2 +1,27 @@
 
-showMessage('help');
+let price = 12,
+    taxRate = 0.07;
+// price = 99.99;
+// price = 29.99; // override it
+// price = 12;
+//price = price % 5;
+// price %= 5;
+
+//showMessage('help');
+
+/*
+const price = 20;
+showMessage(price);
+*/ 
+
+/*
+Doesn't give an error!!-> Better to use let rather than using var
+showMessage(price);
+var price = 35;
+*/ 
+
+// showMessage(price * taxRate);
+showMessage(++price);
+console.log(typeof price);
+
+
