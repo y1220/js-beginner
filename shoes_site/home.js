@@ -36,7 +36,15 @@ let amount = Number.parseFloat("123.12");
 showMessage(typeof amount); // Number
 */
 
+/*
 let saved = true;
 saved = !saved;
 showMessage(saved);
+*/
+// OBJECT
+let person = {
+    firstName: "John",
+    lastName: "Adams"
+};
+showMessage(person.firstName);
 
