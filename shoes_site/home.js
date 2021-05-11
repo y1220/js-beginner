@@ -31,7 +31,12 @@ showMessage(message);
 console.log(message.length);
 */
 
+/*
 let amount = Number.parseFloat("123.12");
-showMessage(typeof amount);
+showMessage(typeof amount); // Number
+*/
 
+let saved = true;
+saved = !saved;
+showMessage(saved);
 
